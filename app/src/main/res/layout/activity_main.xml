@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_background"
+            android:onClick="showInformation"
+            android:textColor="@android:color/white"
+            android:text="Information">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txtInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="12dp"
+            android:text="\t\tAmbrosia artemisiifolia, with the common names common ragweed, annual ragweed, and low ragweed, is an annual plant that emerges in late spring. It propagates mainly by rhizomes, but also by seed.\n\n\t\tIt is much-branched, and grows up to 70 centimetres (2.3 ft) in height. The pinnately divided soft and hairy leaves are 3–12 centimetres (1.2–4.7 in) long.\n\n\t\tIts pollen is wind-dispersed, and can be a strong allergen to people with hay fever.\n\n\t\tIt produces 2–4 mm obconic green to brown fruit. It sets seed in later summer or autumn. Since the seeds persist into winter and are numerous and rich in oil, they are relished by songbirds and upland game birds."
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_background"
+            android:onClick="showSymptoms"
+            android:textColor="@android:color/white"
+            android:text="Symptoms">
+
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txtSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="12dp"
+            android:textColor="@android:color/white"
+            android:text="\t\tA ragweed allergy can cause many symptoms, including:\n\n\t\t•  itchy eyes, nose, and throat\n\t\t•  puffy eyes\n\t\t•  runny or stuffy nose\n\t\t•  sneezing\n\t\t•  difficulty sleeping\n\n\t\tIn addition to these symptoms, a ragweed allergy may irritate the upper airways, leading to coughing and wheezing in someone who has asthma."
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnTreatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_background"
+            android:onClick="showTreatment"
+            android:text="Treatment"
+            android:textColor="@android:color/white">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/txtTreatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="12dp"
+            android:textColor="@android:color/white"
+            android:text="\t\tTo reduce ragweed allergy symptoms, a person can:\n\n\t\t•  check pollen counts daily and avoid going outside for an extended time when pollen counts are high\n\n\t\t•  change their clothes or take a shower after going outside during ragweed season\n\n\t\t•  keep windows closed when driving and at home. This can help to keep indoor areas pollen-free\n\n\t\t•  take anti-allergy medications. These include cetirizine (Zyrtec), loratadine (Claritin), levocetirizine (Xyzal), and fexofenadine (Allegra). Ideally, a person can start to take these medications 1 to 2 weeks before seasonal allergy symptoms start\n\n\t\t•  use anti-itch eye drops or anti-inflammatory nasal sprays to reduce itching\n\n\t\t•  refrain from drying clothes on an outdoor line to avoid the clothes picking up pollen."
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

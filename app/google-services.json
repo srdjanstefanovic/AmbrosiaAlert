@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "475473661373",
+    "firebase_url": "https://ambrosiaalert.firebaseio.com",
+    "project_id": "ambrosiaalert",
+    "storage_bucket": "ambrosiaalert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475473661373:android:63f0bd97d70cecff1dd6d4",
+        "android_client_info": {
+          "package_name": "com.example.ambrosiaalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475473661373-iqadmulhvn0o8hipk1545c9sjjldl31v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiuVyyquwVm7g_Tw3wOxBfe5P6DrVl3lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475473661373-iqadmulhvn0o8hipk1545c9sjjldl31v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
