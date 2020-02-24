@@ -161,6 +161,9 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             case R.id.home:
                 startActivity(new Intent(this, MainActivity.class));
                 return true;
+            case R.id.survey:
+                startActivity(new Intent(this, SurveyActivity.class));
+                return true;
             default:
                 return false;
         }

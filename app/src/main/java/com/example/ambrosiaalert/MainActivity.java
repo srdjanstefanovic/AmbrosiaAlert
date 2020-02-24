@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.map:
                 startActivity(new Intent(this, MapsActivity.class));
                 return true;
+            case R.id.survey:
+                startActivity(new Intent(this, SurveyActivity.class));
+                return true;
             default:
                 return false;
         }
