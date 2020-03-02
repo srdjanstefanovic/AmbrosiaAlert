@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.survey:
                 startActivity(new Intent(this, SurveyActivity.class));
                 return true;
+            case R.id.forecast:
+                startActivity(new Intent(this, AlergyForecastActivity.class));
+                return true;
             default:
                 return false;
         }

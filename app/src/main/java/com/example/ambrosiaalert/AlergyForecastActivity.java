@@ -15,8 +15,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-public class SurveyActivity extends AppCompatActivity {
-
+public class AlergyForecastActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -36,19 +35,18 @@ public class SurveyActivity extends AppCompatActivity {
             case R.id.map:
                 startActivity(new Intent(this, MapsActivity.class));
                 return true;
-            case R.id.forecast:
-                startActivity(new Intent(this, AlergyForecastActivity.class));
+            case R.id.survey:
+                startActivity(new Intent(this, SurveyActivity.class));
                 return true;
             default:
                 return false;
         }
     }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_survey);
+        setContentView(R.layout.activity_alergy_forecast);
 
         WebView webView  = new WebView(this);
 
@@ -70,7 +68,7 @@ public class SurveyActivity extends AppCompatActivity {
             }
         });
 
-        webView.loadUrl("https://docs.google.com/forms/d/e/1FAIpQLSdD7HcVsvRg99WRbHlM4ylWEQQrplkjiE00jtpNM7eIYK7B6g/viewform?fbzx=8639596879022372516");
+        webView.loadUrl("http://www.sepa.gov.rs/index.php?menu=303&id=1112&akcija=showExternal");
         setContentView(webView);
     }
 }
