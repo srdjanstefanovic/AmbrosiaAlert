@@ -62,7 +62,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     double longitude = 0;
     LatLng userLocation;
     DatabaseReference dbref1;
-    int proximityRadius = 10000;
+    //int proximityRadius = 10000;
 
 
     public void saveLocation(View view) {
@@ -203,7 +203,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         //connecting to Firebase
         dbref1 = FirebaseDatabase.getInstance().getReference();
-
     }
 
 

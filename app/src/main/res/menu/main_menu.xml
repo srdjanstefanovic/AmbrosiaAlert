@@ -7,7 +7,7 @@
     <item android:title="Map"
         android:id="@+id/map">
     </item>
-    <item android:title="Alergy Forecast"
+    <item android:title="Allergy Forecast"
         android:id="@+id/forecast">
     </item>
     <item android:title="Survey [Anketa]"
